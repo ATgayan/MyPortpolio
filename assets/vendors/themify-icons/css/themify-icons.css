@@ -125,6 +125,11 @@
 .ti-mobile:before {
 	content: "\e621";
 }
+
+.ti-email:before {
+	content: "\e600"; 
+  }
+
 .ti-minus:before {
 	content: "\e622";
 }
@@ -968,6 +973,10 @@
 .ti-layout-column4-alt:before {
 	content: "\e73a";
 }
+.ti-youtube{
+	content: "\e74d"; 
+  }
+
 .ti-layout-column3-alt:before {
 	content: "\e73b";
 }
@@ -989,6 +998,10 @@
 .ti-facebook:before {
 	content: "\e741";
 }
+.ti-linkedin {
+	content: "\e76d"; 
+  }
+  
 .ti-dropbox:before {
 	content: "\e742";
 }
@@ -1061,9 +1074,9 @@
 .ti-flickr-alt:before {
 	content: "\e759";
 }
-.ti-email:before {
+/* .:before {
 	content: "\e75a";
-}
+} */
 .ti-drupal:before {
 	content: "\e75b";
 }

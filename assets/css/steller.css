@@ -65,9 +65,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #4e4c4c;
   text-align: left;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 [tabindex="-1"]:focus {
@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.discription_color{
+
+  color: #a9a7a7;
 }
 
 abbr[title],
@@ -5053,7 +5058,7 @@ input[type="button"].btn-block {
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #000000;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -7139,7 +7144,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #ff7a57 !important;
+  background-color: #eef713 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -7308,6 +7313,8 @@ button.bg-dark:focus {
 
 .rounded {
   border-radius: 0.25rem !important;
+  background-color: #fff;
+  color: #000;
 }
 
 .rounded-top {
@@ -10972,7 +10979,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc((18px + (25 - 18) * ((100vw - 320px) / (1000 - 320))));
+  color: #fefefe;
+}
+.jobtitle{
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -10993,7 +11004,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .subtitle {
   font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
-  opacity: .8;
+
+  color: #898585;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: medium;
 }
 
 @media (min-width: 992px) {
@@ -11022,8 +11036,8 @@ pre {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #ff7a57;
-  color: #ff7a57;
+  border: 2px solid #fff;
+  color: #fff;
   text-align: center;
   line-height: 40px;
   -webkit-transition: all 0.3s;
@@ -11032,7 +11046,7 @@ pre {
 }
 
 .socials .social-item:hover {
-  background: #ff7a57;
+  background: #343a40;;
   color: #fff;
 }
 
@@ -11176,11 +11190,21 @@ pre {
   display: block;
   font-size: 40px;
   margin-bottom: 18px;
-  color: #ff7a57;
+ 
+}
+
+.p_color{
+
+  color: #fff;
+  font-weight: 800;
+}
+
+.p_color_sub{
+  color: #fff;
 }
 
 .custom-card:hover, .custom-card:active {
-  background: #ff7a57;
+  background: #000000;
   color: #fff;
 }
 
@@ -11238,7 +11262,7 @@ pre {
   max-width: 1000px;
   margin: 0 auto 150px;
   z-index: 99;
-  background: #fff;
+  background: #000000;
 }
 
 .contact .form {
@@ -11280,11 +11304,11 @@ pre {
   width: 37px;
   height: 37px;
   border-radius: 50%;
-  border: 1px solid #ff7a57;
+  border: 1px solid #eef713;
   line-height: 34px;
   text-align: center;
   padding: 0 !important;
-  color: #ff7a57;
+  color: #eef713;
   margin-right: 15px;
 }
 
@@ -11346,7 +11370,7 @@ pre {
   min-height: 80px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #fff;
+  background: #000000;
 }
 
 .navbar .navbar-brand img {
@@ -11361,6 +11385,7 @@ pre {
 
 .navbar .navbar-nav .nav-link {
   font-size: 13px;
+  color: aliceblue;
   font-weight: bold;
   margin: 0 10px;
   -webkit-transition: all 0.3s;
@@ -11368,11 +11393,15 @@ pre {
 }
 
 .navbar .navbar-nav .nav-link.active {
-  color: #ff7a57;
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #70706f;
 }
 
 .navbar .navbar-nav .btn {
   min-width: 120px;
+ 
 }
 
 .navbar.affix {
@@ -11416,12 +11445,11 @@ pre {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: #ff7a57;
   box-shadow: 0 0 10px rgba(255, 122, 87, 0.5);
 }
 
 .page-footer {
-  background: #fcfdff;
+  background: #000000;
 }
 
 .page-footer .row {
@@ -11474,6 +11502,8 @@ pre {
 .header .container .infos {
   margin-top: 120px;
 }
+
+
 
 .header .container .infos .subtitle {
   margin-bottom: 0;
@@ -11546,7 +11576,7 @@ pre {
   max-width: 650px;
   width: 95%;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -11555,7 +11585,7 @@ pre {
   padding: 20px 0;
   margin-top: -50px;
   z-index: 999;
-  background: #fff;
+  background: #000000;
   box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
 }
 
@@ -11577,10 +11607,11 @@ pre {
 
 .header .widget .widget-item h2, .header .widget .widget-item p {
   margin: 0;
+  color: #fff;
 }
 
 .header .widget .widget-item p {
-  opacity: .7;
+ 
   font-size: 14px;
 }
 
@@ -11591,6 +11622,7 @@ pre {
   }
   .header .widget .widget-item h2 {
     font-size: 20px;
+
   }
   .header .widget .widget-item p {
     font-size: 13px;
@@ -11634,7 +11666,7 @@ pre {
 }
 
 .section:nth-child(even) {
-  background: white;
+  background: black;
 }
 
 .section.bg-white {
